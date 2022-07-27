@@ -25,6 +25,6 @@ package_update: true
 
 runcmd:
   - "iptables -A INPUT -p tcp --dport 80 -j ACCEPT"
-  - "docker run --rm -d -p ${app_port}:${app_port} dinakar29/goodrx-api:latest"
+  - "docker run --rm -d -p ${app_port}:${app_port} cicdguy/goodrx-api:latest"
 
 final_message: "The system is finally up, after $UPTIME seconds"

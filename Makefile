@@ -3,7 +3,7 @@
 # ╚╝ ╩ ╩╩╚═╚═╝
 ROOT_DIR:=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 TERRAFORM = cd terraform && terraform
-AUTHOR = dinakar29
+AUTHOR = cicdguy
 APP_NAME = goodrx-api
 DOCKER_IMAGE = ${AUTHOR}/${APP_NAME}
 APP_VERSION = 1.0

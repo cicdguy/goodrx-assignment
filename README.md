@@ -27,7 +27,7 @@ Read below to see how some of these targets were used.
 
 I used Flask-RestPlus to create the API. You'll find the code in the [app](app) directory. It can be run locally or via a Docker container.
 
-I used the `make docker-*` commands to automatically build the Docker image and push it into Docker Hub at [this location](https://hub.docker.com/r/dinakar29/goodrx-api).
+I used the `make docker-*` commands to automatically build the Docker image and push it into Docker Hub at [this location](https://hub.docker.com/r/cicdguy/goodrx-api).
 
 
 The Swagger UI is available at [http://goodrx-api-demo-alb-1203638726.eu-west-2.elb.amazonaws.com](http://goodrx-api-demo-alb-1203638726.eu-west-2.elb.amazonaws.com). You may interact with the `builds` API at [http://goodrx-api-demo-alb-1203638726.eu-west-2.elb.amazonaws.com/builds](http://goodrx-api-demo-alb-1203638726.eu-west-2.elb.amazonaws.com/builds) via POST operations. There is also a health check endpoint at [http://goodrx-api-demo-alb-1203638726.eu-west-2.elb.amazonaws.com/health](http://goodrx-api-demo-alb-1203638726.eu-west-2.elb.amazonaws.com/health) which the load balancer uses to check the health of the API.
