@@ -11,4 +11,4 @@ py-healthcheck==1.8.0
 pyrsistent==0.15.1
 pytz==2019.1
 six==1.12.0
-Werkzeug==0.15.3
+Werkzeug==2.2.3
